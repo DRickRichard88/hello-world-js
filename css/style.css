@@ -35,14 +35,14 @@ html, body {
   margin-left: 80px;
 }
     
-#menu-link {
+.menu-link {
   font-size: 18px;
   text-decoration: none;
   color: #000000;
   line-height: 100px;
 }
 
-#menu-link:hover {
+.menu-link:hover {
   color: #5C5C5C;
   cursor: pointer;
 }
