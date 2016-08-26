@@ -1,13 +1,13 @@
 var img = document.getElementById('img-section-one');
-var img1="./images/photo1.png";
-var img2="./images/photo2.png";
-var img3="./images/photo3.png";
-var img4="./images/minimo1.png";
+var srcImg1="./images/photo1.png";
+var srcImg2="./images/photo2.png";
+var srcImg3="./images/photo3.png";
+var srcImg4="./images/minimo1.png";
 //piec zmiennych pierwsza odpowiada za obrazek"to nasze pierwsze pudelko", zlapane za pomoca komnendy
 //getElementById
 //pozostale to sciezki do plikow, beda podmieniane za pomoca onclick
 //onclick=myFunction(img1)
-function myFunction(source) {
+function changeImgSrc(source) {
   img.src=source;
 }
 //tworze funkce myFunction o ktora bierze parametr "source", ktory ma byc ma byc 
