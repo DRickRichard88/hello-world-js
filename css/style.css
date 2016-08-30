@@ -35,7 +35,7 @@ html, body {
   margin-left: 80px;
 }
     
-#menu-link {
+.menu-link {
   font-size: 18px;
   text-decoration: none;
   color: #000000;
@@ -100,7 +100,7 @@ html, body {
 }
 .post-article {
   width: 460px;
-  height: 70px;
+  height: 75px;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
