@@ -29,7 +29,7 @@ html, body {
   float: right;
   margin: 0px 50px;
 }
-  	
+    
 .menu-list {
   display: inline-block;
   margin-left: 80px;
@@ -83,28 +83,24 @@ html, body {
   text-decoration: none;
   color: #999999;
 }
+
 .section-two {
-  height: 1100px;
+  height: 1000px;
   width: 100%;
 }
 
 .content-s-two {
   margin: 0 80px 10px 80px; 
   height: inherit;
+  padding-top: 30px;
 }
 
-.post-1 {
-  float: left;
-  width: 460px;
-  margin: 60px 0 0 0;
-}
 .post-article {
   width: 460px;
   height: 75px;
+  white-space: nowrap;
   overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical
+  text-overflow: ellipsis;
 }
 
 .link-post {
@@ -120,8 +116,7 @@ html, body {
 }
 
 .link-post:hover .img-gallery {
-opacity : 0.70;
-filter : alpha(opacity=70);
+  opacity : 0.7;
 }
 
 .img-gallery {
@@ -129,20 +124,15 @@ filter : alpha(opacity=70);
   height: 305px;
 }
 
-.post-2 {
-  float: right;
+.post { 
   width: 460px;
-  margin :60px 0 0 0;
+  margin: 0 30px 0px 30px;
 }
 
-.post-3 {
+.pull-left {
   float: left;
-  width: 460px;
-  margin :60px 0 0 0;
 }
 
-.post-4 {
+.pull-right {
   float: right;
-  width: 460px;
-  margin :60px 0 0 0;
 }
